@@ -1,0 +1,154 @@
+html {
+    background-color:#a8a8a8;
+
+}
+/*use aqua?*/
+main {
+    background-color:#ffffff;
+    width:80%;
+    border:1px solid black;
+    margin:auto;
+}
+h1 a {
+    text-decoration: none;
+}
+
+section.blog p{
+    font-size: 17px;
+    margin: 1px;
+}
+
+section.blog h2 {
+    font-size: 28px;
+}
+
+section.blog{
+    width:auto;
+    margin:1em
+}
+
+section.blog h3 {
+    font-size: 19px;
+}
+
+section.blog code {
+    font-size: 17px;
+    background-color:#a3a3a3a3;
+}
+
+section.resume {
+    width:90%;
+    margin: 1em;
+    margin-left: 3.7em;
+}
+
+section {
+    float:left;
+    width:64%;
+    border: 1px solid black;
+    margin: 2px;
+    
+}
+
+section h2 {
+    font-size: 40px;
+}
+
+section p {
+    font-size: 20px;
+}
+
+aside {
+    float:right;
+    width:34%;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: -20px;
+}
+
+fullwidth {
+    width:100%;
+}
+
+footer {
+    padding:2em;
+    text-align:center;
+    clear:both;
+}
+figure {
+    display:inline-block;
+    width: 32%;
+}
+figure.img {
+    margin: auto;
+    border:1px solid #000;
+    text-align: center;
+}
+
+@media all and (max-width:600px) {
+    
+    main {
+        width:100%;
+    }
+    
+    section {
+        float:none;
+        width:100%;
+        margin:auto;
+    }
+
+    aside {
+        float:none;
+        width:100%;
+        margin-left: 5px;
+        margin-right: 2px;
+        margin-top: -15px;
+    }
+    div.embed-container.agenda-view {
+        display:block;
+    }
+    div.embed-container.month-view {
+        display:none;
+    }
+
+}
+
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+nav{
+    margin: 2px;
+}
+
+@media all and (max-width:600px) {
+    div.embed-container.agenda-view {
+        display:none;
+    }
+    section.blog code {
+        font-size: 15px;
+        background-color:#a3a3a3a3;
+}
+    section.blog{
+        margin:1px;   
+    }
+    section.blog h2{
+        font-size:24px;   
+    }
+
+    section.resume {
+        width:90%;
+        margin: 1em;
+        margin-left: 1.5em;
+}
+}
